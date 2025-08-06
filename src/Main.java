@@ -46,6 +46,16 @@ public class Main {
         var weightRemainder = secondFighter % firstFighter;
         System.out.println("Разница в весе бойцов теперь " + weightRemainder +" кг!");
 
+        var totalTime = 640;
+        System.out.println(totalTime);
+        var timeOfOne = 8;
+        System.out.println(timeOfOne);
+        var humanCompanies = totalTime / timeOfOne;
+        System.out.println("Всего работников в компании " + humanCompanies + " человек!");
+        var moreHumanCompfnies = humanCompanies + 94;
+        System.out.println(moreHumanCompfnies);
+        var moreTotalTime = moreHumanCompfnies * timeOfOne;
+        System.out.println("Если в компании работает " + moreHumanCompfnies + " человека, " + " то всего " + moreTotalTime + " часов работы может быть поделено между сотрудниками ");
 
     }
 }
